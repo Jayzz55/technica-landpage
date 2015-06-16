@@ -8,7 +8,12 @@
   height: 450px;
   /* ie fallbacks */
   background-image: url("./assets/background.jpg") no-repeat;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background.jpg', sizingMethod='scale')"; }
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background.jpg', sizingMethod='scale')";
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/background.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100% cover; }
   #lead #lead-text {
     margin: auto;
     margin-top: 85px;
