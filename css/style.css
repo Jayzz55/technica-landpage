@@ -7,9 +7,9 @@
   width: 100%;
   height: 450px;
   /* ie fallbacks */
-  background-image: url("./assets/background-ie-small.jpg") no-repeat;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie-small.jpg', sizingMethod='scale')";
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie-small.jpg', sizingMethod='scale');
+  background-image: url("./assets/background-ie.jpg") no-repeat;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie.jpg', sizingMethod='scale');
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/background.jpg");
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/background.jpg");
   background-repeat: no-repeat;
