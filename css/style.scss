@@ -9,22 +9,22 @@
   height: 450px;
 
   /* ie fallbacks */
-  background-image: url('../assets/background-ie.jpg');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie.jpg', sizingMethod='scale')";
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie.jpg', sizingMethod='scale');
+  background-image: url('../assets/background-ie3.jpg');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie3.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie3.jpg', sizingMethod='scale');
 
-  // /* desired styles */
+  /* desired styles */
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/background.jpg');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% 100% cover;
+  background-size: cover;
 
   #lead-text {
     margin: auto;
-    margin-top: 85px;
+    margin-top: 145px;
     color: white;
     letter-spacing: 2px;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -118,13 +118,12 @@
     height: 300px;
     
     /* ie fallbacks */
-    background-image: url('../assets/background-ie2-small.jpg');
-    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie2-small.jpg', sizingMethod='scale')";
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie2-small.jpg', sizingMethod='scale');
+    background-image: url('../assets/background-ie4-small.jpg');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie4-small.jpg', sizingMethod='scale')";
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie4-small.jpg', sizingMethod='scale');
 
     /* desired styles */
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/background.jpg');
-    background-size: cover;
 
     #lead-text {
       margin-top: 70px;
