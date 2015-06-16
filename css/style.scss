@@ -118,8 +118,9 @@
     height: 300px;
     
     /* ie fallbacks */
-    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie.jpg', sizingMethod='scale')";
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie.jpg', sizingMethod='scale');
+    background-image: url('../assets/background-ie2-small.jpg');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie2-small.jpg', sizingMethod='scale')";
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/background-ie2-small.jpg', sizingMethod='scale');
 
     /* desired styles */
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/background.jpg');
